@@ -122,3 +122,19 @@ KEYCLOAK_HOME/bin/kc.sh build
 ```bash
 KEYCLOAK_HOME/bin/kc.sh start
 ```
+
+## Open-Source Project Files
+
+This repository includes standard open-source baseline files:
+
+- `LICENSE` (MIT)
+- `CHANGELOG.md`
+- `CONTRIBUTING.md`
+- `SECURITY.md`
+- `CODE_OF_CONDUCT.md`
+- GitHub templates and CI workflow under `.github/`
+
+## Repository Hygiene Notes
+
+- `.mvn/` is intentionally committed because it is required by the Maven Wrapper (`mvnw`) for reproducible builds.
+- `.vscode/` is intentionally excluded from version control as local IDE configuration.

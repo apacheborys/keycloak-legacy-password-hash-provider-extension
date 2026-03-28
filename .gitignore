@@ -1,2 +1,6 @@
 .m2/
 **/target/
+.vscode/
+.idea/
+*.iml
+.DS_Store
