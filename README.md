@@ -106,7 +106,7 @@ Target another Keycloak 26.x patch version:
 
 Output JAR:
 
-`extensions/extension-password-hashprovider/target/extension-password-hashprovider-1.0.0-SNAPSHOT.jar`
+`extensions/extension-password-hashprovider/target/extension-password-hashprovider-0.0.1.jar`
 
 ## Install in Keycloak
 
